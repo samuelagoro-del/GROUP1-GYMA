@@ -1,0 +1,19 @@
+USUARIOS
+USUARIO
+nomUsuario: bbb
+nombre: bbb
+apellido: bbb
+contrasena: 81cc5b17018674b401b42f35ba07bb79e211239c23bffe658da1577e3e646877
+email: bbb@.
+fechaNacimiento: 2005-10-20
+nivel: 0
+FIN_USUARIO
+USUARIO
+nomUsuario: aaa
+nombre: aaa
+apellido: aaa
+contrasena: 61be55a8e2f6b4e172338bddf184d6dbee29c98853e0a0485ecee7f27b9af0b4
+email: aaa@.
+fechaNacimiento: 2006-10-03
+nivel: 2
+FIN_USUARIO
