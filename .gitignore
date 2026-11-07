@@ -1,0 +1,11 @@
+# Credenciales de Firebase
+config.json
+
+# Copias de seguridad y datos personales
+workouts_backup.dat
+usuarios_backup.dat
+workouts_backup.json
+historicos.xml
+
+# Archivos generados por Maven
+target/
