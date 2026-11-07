@@ -1,0 +1,367 @@
+WORKOUTS
+WORKOUT
+nombre: Movilidad y activación
+descripcion: Sesión suave para empezar a entrenar.
+nivel: 0
+duracion: 265
+video: https://youtu.be/Pnbwyxh4LJs?si=dtyVwUCEoJIV_5x6
+EJERCICIO
+nombre: Marcha en el sitio
+descripcion: Realiza marcha en el sitio con movimiento controlado y manteniendo una postura adecuada.
+descanso: 20
+duracion: 85
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 30
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 35
+EJERCICIO
+nombre: Sentadilla asistida
+descripcion: Realiza sentadilla asistida con movimiento controlado y manteniendo una postura adecuada.
+descanso: 20
+duracion: 115
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 45
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 50
+EJERCICIO
+nombre: Plancha con rodillas apoyadas
+descripcion: Realiza plancha con rodillas apoyadas con movimiento controlado y manteniendo una postura adecuada.
+descanso: 20
+duracion: 65
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 1
+duracion: 20
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 1
+duracion: 25
+WORKOUT
+nombre: Pilates para principiantes
+descripcion: Control corporal, estabilidad y respiración.
+nivel: 0
+duracion: 285
+video: https://youtu.be/U_b4jsAK644?si=TzPBdUIjXMIww_rt
+EJERCICIO
+nombre: Plancha abdominal
+descripcion: Realiza plancha abdominal con movimiento controlado y manteniendo una postura adecuada.
+descanso: 20
+duracion: 75
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 1
+duracion: 25
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 1
+duracion: 30
+EJERCICIO
+nombre: Puente de glúteos
+descripcion: Realiza puente de glúteos con movimiento controlado y manteniendo una postura adecuada.
+descanso: 20
+duracion: 105
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 40
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 45
+EJERCICIO
+nombre: Bird dog
+descripcion: Realiza bird dog con movimiento controlado y manteniendo una postura adecuada.
+descanso: 20
+duracion: 105
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 40
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 45
+WORKOUT
+nombre: Fuerza de cuerpo completo
+descripcion: Rutina intermedia para trabajar todo el cuerpo.
+nivel: 1
+duracion: 555
+video: https://youtu.be/9FBIaqr7TjQ?si=69Pgbp7nj9A6GeWI
+EJERCICIO
+nombre: Sentadilla
+descripcion: Realiza sentadilla con movimiento controlado y manteniendo una postura adecuada.
+descanso: 40
+duracion: 230
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 45
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 50
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 14
+duracion: 55
+EJERCICIO
+nombre: Flexiones inclinadas
+descripcion: Realiza flexiones inclinadas con movimiento controlado y manteniendo una postura adecuada.
+descanso: 40
+duracion: 165
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 40
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 45
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 14
+duracion: 50
+EJERCICIO
+nombre: Plancha abdominal
+descripcion: Realiza plancha abdominal con movimiento controlado y manteniendo una postura adecuada.
+descanso: 40
+duracion: 160
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 1
+duracion: 35
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 1
+duracion: 40
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 1
+duracion: 45
+WORKOUT
+nombre: Pilates Core
+descripcion: Estabilidad y fuerza del abdomen y la zona lumbar.
+nivel: 1
+duracion: 510
+video: https://youtu.be/OJxXA4EwTf0?si=w3gxIbQCQqvmT8xi
+EJERCICIO
+nombre: Plancha abdominal
+descripcion: Realiza plancha abdominal con movimiento controlado y manteniendo una postura adecuada.
+descanso: 40
+duracion: 175
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 1
+duracion: 40
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 1
+duracion: 45
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 1
+duracion: 50
+EJERCICIO
+nombre: Dead bug
+descripcion: Realiza dead bug con movimiento controlado y manteniendo una postura adecuada.
+descanso: 40
+duracion: 175
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 40
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 45
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 14
+duracion: 50
+EJERCICIO
+nombre: Elevación de piernas controlada
+descripcion: Realiza elevación de piernas controlada con movimiento controlado y manteniendo una postura adecuada.
+descanso: 40
+duracion: 160
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 35
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 40
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 14
+duracion: 45
+WORKOUT
+nombre: Circuito avanzado de fuerza
+descripcion: Circuito exigente de fuerza y estabilidad.
+nivel: 2
+duracion: 750
+video: https://youtu.be/g01D1qs4kRU?si=cM7rNmSuf-NNVeFE
+EJERCICIO
+nombre: Sentadilla con salto
+descripcion: Realiza sentadilla con salto con movimiento controlado y manteniendo una postura adecuada.
+descanso: 60
+duracion: 255
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 40
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 45
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 14
+duracion: 50
+EJERCICIO
+nombre: Flexiones
+descripcion: Realiza flexiones con movimiento controlado y manteniendo una postura adecuada.
+descanso: 60
+duracion: 270
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 45
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 50
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 14
+duracion: 55
+EJERCICIO
+nombre: Plancha lateral
+descripcion: Realiza plancha lateral con movimiento controlado y manteniendo una postura adecuada.
+descanso: 60
+duracion: 225
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 1
+duracion: 30
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 1
+duracion: 35
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 1
+duracion: 40
+WORKOUT
+nombre: Core avanzado
+descripcion: Resistencia abdominal y control del tronco.
+nivel: 2
+duracion: 720
+video: https://youtu.be/86wohGlDqFY?si=CMxR3Tgv74Nf1C8s
+EJERCICIO
+nombre: Hollow hold
+descripcion: Realiza hollow hold con movimiento controlado y manteniendo una postura adecuada.
+descanso: 60
+duracion: 225
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 1
+duracion: 30
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 1
+duracion: 35
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 1
+duracion: 40
+EJERCICIO
+nombre: Mountain climbers
+descripcion: Realiza mountain climbers con movimiento controlado y manteniendo una postura adecuada.
+descanso: 60
+duracion: 255
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 40
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 45
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 14
+duracion: 50
+EJERCICIO
+nombre: V-ups
+descripcion: Realiza v-ups con movimiento controlado y manteniendo una postura adecuada.
+descanso: 60
+duracion: 240
+SERIE
+nombre: Serie 1
+foto: 
+repeticiones: 10
+duracion: 35
+SERIE
+nombre: Serie 2
+foto: 
+repeticiones: 12
+duracion: 40
+SERIE
+nombre: Serie 3
+foto: 
+repeticiones: 14
+duracion: 45

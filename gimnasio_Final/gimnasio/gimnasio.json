@@ -1,0 +1,122 @@
+{
+  "workouts": [
+    {
+      "id": 1,
+      "nombre": "Full Body Beginner",
+      "descripcion": "Rutina completa para principiantes que trabaja todo el cuerpo.",
+      "nivel": 1,
+      "imagen": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=1200&utm_source=chatgpt.com",
+      "ejercicios": [
+        {
+          "nombre": "Calentamiento",
+          "descripcion": "Ejercicios de movilidad articular y cardio ligero.",
+          "tiempo": 100,
+          "imagen": "https://images.unsplash.com/photo-1534258936925-c58bed479fcb?w=1200"
+        },
+        {
+          "nombre": "Sentadillas",
+          "descripcion": "Sentadillas básicas con peso corporal.",
+          "tiempo": 45,
+          "imagen": "https://previews.123rf.com/images/artinspiring/artinspiring1903/artinspiring190300885/119488342-man-making-squats-exercise-for-butt-leg-workout.jpg"
+        },
+        {
+          "nombre": "Flexiones",
+          "descripcion": "Flexiones de pecho en el suelo.",
+          "tiempo": 30,
+          "imagen": "https://images.unsplash.com/photo-1534367610401-9f5ed68180aa?w=1200"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nombre": "Cardio HIIT",
+      "descripcion": "Entrenamiento intenso de cardio con intervalos de alta intensidad.",
+      "nivel": 2,
+      "imagen": "https://www.shutterstock.com/image-vector/collection-strength-calisthenics-exercises-that-260nw-1721777518.jpg",
+      "ejercicios": [
+        {
+          "nombre": "Burpees",
+          "descripcion": "Burpees completos a máxima velocidad.",
+          "tiempo": 30,
+          "imagen": "https://www.shutterstock.com/image-vector/man-doing-effective-upper-body-260nw-2659381055.jpg"
+        },
+        {
+          "nombre": "Mountain Climbers",
+          "descripcion": "Escaladores rápidos en posición de plancha.",
+          "tiempo": 40,
+          "imagen": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?w=1200&utm_source=chatgpt.com"
+        },
+        {
+          "nombre": "Jump Squats",
+          "descripcion": "Sentadillas con salto explosivo.",
+          "tiempo": 35,
+          "imagen": "https://www.shutterstock.com/image-vector/exercise-guide-by-woman-doing-260nw-1275616618.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "nombre": "Advanced Strength",
+      "descripcion": "Rutina avanzada de fuerza para atletas experimentados.",
+      "nivel": 3,
+      "imagen": "https://previews.123rf.com/images/nattyblissful/nattyblissful2004/nattyblissful200400036/144740269-booty-or-glutes-workout-with-resistance-bands-deadlift-concept-stay-home-and-do-sport-flat-vector.jpg",
+      "ejercicios": [
+        {
+          "nombre": "Peso Muerto",
+          "descripcion": "Peso muerto con barra olímpica.",
+          "tiempo": 60,
+          "imagen": "https://www.shutterstock.com/image-vector/woman-doing-romanian-deadlift-exercise-260nw-2118315965.jpg"
+        },
+        {
+          "nombre": "Press Banca",
+          "descripcion": "Press de banca con barra.",
+          "tiempo": 50,
+          "imagen": "https://www.shutterstock.com/image-vector/woman-doing-dumbbell-flat-bench-600nw-1993416353.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "nombre": "Yoga Flow",
+      "descripcion": "Sesión de yoga para flexibilidad y relajación.",
+      "nivel": 1,
+      "imagen": "https://www.yogaenred.com/wp-content/uploads/2022/03/saludo-al-sol.jpg",
+      "ejercicios": [
+        {
+          "nombre": "Guerrero I",
+          "descripcion": "Postura del guerrero I.",
+          "tiempo": 5,
+          "imagen": "https://images.unsplash.com/photo-1583454110551-21f2fa2afe61?w=1200&utm_source=chatgpt.com"
+        },
+        {
+          "nombre": "Saludo al Sol",
+          "descripcion": "Secuencia clásica de yoga.",
+          "tiempo": 5,
+          "imagen": "https://www.yogaenred.com/wp-content/uploads/2022/03/saludo-al-sol.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "nombre": "Core Crusher",
+      "descripcion": "Entrenamiento específico de abdominales y core.",
+      "nivel": 2,
+      "imagen": "https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&fit=crop&w=1200&q=80&utm_source=chatgpt.com",
+      "ejercicios": [
+        {
+          "nombre": "Plancha",
+          "descripcion": "Plancha abdominal isométrica.",
+          "tiempo": 60,
+          "imagen": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?w=1200&utm_source=chatgpt.com"
+        },
+        {
+          "nombre": "Crunches",
+          "descripcion": "Abdominales tradicionales.",
+          "tiempo": 45,
+          "imagen": "https://images.unsplash.com/photo-1671970922029-0430d2ae122c?auto=format&fit=crop&w=1200&q=80&utm_source=chatgpt.com"
+        }
+      ]
+    }
+  ]
+}
+
