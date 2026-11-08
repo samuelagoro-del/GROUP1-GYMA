@@ -54,7 +54,7 @@ public class VentanaWorkouts extends JFrame {
 
 	public VentanaWorkouts(Usuario usuario, ArrayList<Workout> workoutsParametro, boolean conexionParametro) {
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		setBounds(100, 100, 612, 557);
+		setBounds(100, 100, 993, 557);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -62,7 +62,7 @@ public class VentanaWorkouts extends JFrame {
 
 		JLabel lblWorkouts = new JLabel("Sesiones de Entrenamiento");
 		lblWorkouts.setFont(new Font("Tahoma", Font.PLAIN, 24));
-		lblWorkouts.setBounds(10, 71, 293, 29);
+		lblWorkouts.setBounds(10, 74, 293, 29);
 		contentPane.add(lblWorkouts);
 
 		JButton btnPerfil = new JButton("Perfil");
@@ -72,7 +72,7 @@ public class VentanaWorkouts extends JFrame {
 			}
 		});
 		btnPerfil.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		btnPerfil.setBounds(10, 11, 92, 37);
+		btnPerfil.setBounds(10, 11, 136, 37);
 		contentPane.add(btnPerfil);
 
 		JButton btnVolver = new JButton("Volver");
@@ -82,11 +82,11 @@ public class VentanaWorkouts extends JFrame {
 			}
 		});
 		btnVolver.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		btnVolver.setBounds(494, 11, 92, 37);
+		btnVolver.setBounds(820, 11, 147, 37);
 		contentPane.add(btnVolver);
 
 		JScrollPane scrollPane = new JScrollPane();
-		scrollPane.setBounds(10, 117, 576, 158);
+		scrollPane.setBounds(10, 117, 957, 158);
 		contentPane.add(scrollPane);
 
 		modeloWorkout = new DefaultTableModel() {
@@ -136,11 +136,11 @@ public class VentanaWorkouts extends JFrame {
 		}
 
 
-		cbNivel.setBounds(422, 77, 164, 29);
+		cbNivel.setBounds(737, 77, 230, 29);
 		contentPane.add(cbNivel);
 
 		JScrollPane scrollPaneEjercicios = new JScrollPane();
-		scrollPaneEjercicios.setBounds(10, 349, 576, 158);
+		scrollPaneEjercicios.setBounds(10, 349, 957, 158);
 		contentPane.add(scrollPaneEjercicios);
 
 		modeloEjercicios = new DefaultTableModel() {
@@ -161,7 +161,7 @@ public class VentanaWorkouts extends JFrame {
 
 		JLabel lblEjercicios = new JLabel("Ejercicios");
 		lblEjercicios.setFont(new Font("Tahoma", Font.PLAIN, 24));
-		lblEjercicios.setBounds(10, 309, 105, 29);
+		lblEjercicios.setBounds(16, 303, 105, 29);
 		contentPane.add(lblEjercicios);
 
 		JButton btnComenzarEntrenamiento = new JButton("Comenzar Entrenamiento");
@@ -171,7 +171,7 @@ public class VentanaWorkouts extends JFrame {
 			}
 		});
 		btnComenzarEntrenamiento.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		btnComenzarEntrenamiento.setBounds(298, 301, 288, 37);
+		btnComenzarEntrenamiento.setBounds(602, 301, 365, 37);
 		contentPane.add(btnComenzarEntrenamiento);
 		
 		JButton btnHistorico = new JButton("Mostrar Historico");
@@ -181,7 +181,7 @@ public class VentanaWorkouts extends JFrame {
 			}
 		});
 		btnHistorico.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		btnHistorico.setBounds(199, 11, 203, 37);
+		btnHistorico.setBounds(344, 11, 274, 37);
 		contentPane.add(btnHistorico);
 
 		cbNivel.addActionListener(new ActionListener() {

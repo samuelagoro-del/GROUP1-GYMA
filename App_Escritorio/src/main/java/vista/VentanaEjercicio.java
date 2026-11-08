@@ -552,7 +552,7 @@ public class VentanaEjercicio extends JFrame {
 			switch (numSerie) {
 			case 1:
 				lblSerie1.setText(serie.getNombre());
-				lblCronoSerie1.setText(String.valueOf(serie.getDuracion()) + " s");
+				lblCronoSerie1.setText(String.valueOf(serie.getDuracionFormateada()));
 				panelSerie1.setVisible(true);
 				ImageIcon iconoSerie1 = new ImageIcon(getClass().getResource(serie.getFoto()));
 				Image imagenSerie1 = iconoSerie1.getImage().getScaledInstance(
@@ -563,7 +563,7 @@ public class VentanaEjercicio extends JFrame {
 				break;
 			case 2:
 				lblSerie.setText(serie.getNombre());
-				lblCronoSerie2.setText(String.valueOf(serie.getDuracion()) + " s");
+				lblCronoSerie2.setText(String.valueOf(serie.getDuracionFormateada()));
 				panelSerie2.setVisible(true);
 				ImageIcon iconoSerie2 = new ImageIcon(getClass().getResource(serie.getFoto()));
 				Image imagenSerie2 = iconoSerie2.getImage().getScaledInstance(
@@ -574,7 +574,7 @@ public class VentanaEjercicio extends JFrame {
 				break;
 			case 3:
 				lblSerie3.setText(serie.getNombre());
-				lblCronoSerie3.setText(String.valueOf(serie.getDuracion()) + " s");
+				lblCronoSerie3.setText(String.valueOf(serie.getDuracionFormateada()));
 				panelSerie3.setVisible(true);
 				ImageIcon iconoSerie3 = new ImageIcon(getClass().getResource(serie.getFoto()));
 				Image imagenSerie3 = iconoSerie3.getImage().getScaledInstance(

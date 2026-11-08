@@ -53,7 +53,7 @@ public class VentanaPerfil extends JFrame {
 
 	public VentanaPerfil(Usuario usuario, ArrayList<Workout> workoutsParametro) {
 		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-		setBounds(100, 100, 600, 500);
+		setBounds(100, 100, 446, 457);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -61,64 +61,64 @@ public class VentanaPerfil extends JFrame {
 
 		JLabel lblNombre = new JLabel("Nombre: ");
 		lblNombre.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblNombre.setBounds(66, 120, 183, 23);
+		lblNombre.setBounds(10, 120, 183, 23);
 		contentPane.add(lblNombre);
 
 		txtNombre = new JTextField();
 		txtNombre.setColumns(10);
-		txtNombre.setBounds(259, 120, 201, 23);
+		txtNombre.setBounds(203, 120, 201, 23);
 		contentPane.add(txtNombre);
 
 		JLabel lblApellido = new JLabel("Apellido: ");
 		lblApellido.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblApellido.setBounds(66, 154, 183, 23);
+		lblApellido.setBounds(10, 154, 183, 23);
 		contentPane.add(lblApellido);
 
 		txtApellido = new JTextField();
 		txtApellido.setColumns(10);
-		txtApellido.setBounds(259, 154, 201, 23);
+		txtApellido.setBounds(203, 154, 201, 23);
 		contentPane.add(txtApellido);
 
 		JLabel lblEmail = new JLabel("Email: ");
 		lblEmail.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblEmail.setBounds(66, 222, 183, 23);
+		lblEmail.setBounds(10, 222, 183, 23);
 		contentPane.add(lblEmail);
 
 		txtEmail = new JTextField();
 		txtEmail.setColumns(10);
-		txtEmail.setBounds(259, 222, 201, 23);
+		txtEmail.setBounds(203, 222, 201, 23);
 		contentPane.add(txtEmail);
 
 		JLabel lblContrasena = new JLabel("Contraseña: ");
 		lblContrasena.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblContrasena.setBounds(66, 256, 183, 23);
+		lblContrasena.setBounds(10, 256, 183, 23);
 		contentPane.add(lblContrasena);
 
 		JLabel lblNivel = new JLabel("Nivel: ");
 		lblNivel.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblNivel.setBounds(66, 324, 183, 23);
+		lblNivel.setBounds(10, 324, 183, 23);
 		contentPane.add(lblNivel);
 
 		txtNivel = new JTextField();
 		txtNivel.setText("0");
 		txtNivel.setEditable(false);
 		txtNivel.setColumns(10);
-		txtNivel.setBounds(259, 324, 201, 23);
+		txtNivel.setBounds(203, 324, 201, 23);
 		contentPane.add(txtNivel);
 
 		txtUsuario = new JTextField();
 		txtUsuario.setColumns(10);
-		txtUsuario.setBounds(259, 188, 201, 23);
+		txtUsuario.setBounds(203, 188, 201, 23);
 		contentPane.add(txtUsuario);
 
 		lblUsuario = new JLabel("Nombre de usuario: ");
 		lblUsuario.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblUsuario.setBounds(66, 188, 183, 23);
+		lblUsuario.setBounds(10, 188, 183, 23);
 		contentPane.add(lblUsuario);
 
 		lblPerfil = new JLabel("PERFIL");
 		lblPerfil.setFont(new Font("Tahoma", Font.PLAIN, 24));
-		lblPerfil.setBounds(246, 62, 75, 23);
+		lblPerfil.setBounds(190, 62, 75, 23);
 		contentPane.add(lblPerfil);
 
 		btnActualizar = new JButton("Actualizar");
@@ -129,7 +129,7 @@ public class VentanaPerfil extends JFrame {
 			}
 		});
 		btnActualizar.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		btnActualizar.setBounds(222, 364, 146, 40);
+		btnActualizar.setBounds(166, 364, 146, 40);
 		contentPane.add(btnActualizar);
 
 		btnVolver = new JButton("Volver");
@@ -139,21 +139,21 @@ public class VentanaPerfil extends JFrame {
 			}
 		});
 		btnVolver.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		btnVolver.setBounds(428, 11, 146, 40);
+		btnVolver.setBounds(308, 11, 112, 40);
 		contentPane.add(btnVolver);
 
 		JLabel lblFechaDeNacimiento = new JLabel("Fecha de Nacimiento: ");
 		lblFechaDeNacimiento.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblFechaDeNacimiento.setBounds(66, 290, 183, 23);
+		lblFechaDeNacimiento.setBounds(10, 290, 183, 23);
 		contentPane.add(lblFechaDeNacimiento);
 
 		dcFechaNacimiento = new JDateChooser();
 		dcFechaNacimiento.setDateFormatString("yyyy-MM-dd");
-		dcFechaNacimiento.setBounds(259, 290, 201, 23);
+		dcFechaNacimiento.setBounds(203, 290, 201, 23);
 		contentPane.add(dcFechaNacimiento);
 
 		txtContrasena = new JPasswordField();
-		txtContrasena.setBounds(259, 256, 201, 23);
+		txtContrasena.setBounds(203, 256, 201, 23);
 		contentPane.add(txtContrasena);
 
 		usuarioActual = usuario;

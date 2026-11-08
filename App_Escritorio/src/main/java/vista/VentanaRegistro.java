@@ -45,7 +45,7 @@ public class VentanaRegistro extends JFrame {
 
 	public VentanaRegistro() {
 		setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-		setBounds(100, 100, 600, 455);
+		setBounds(100, 100, 455, 452);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		setContentPane(contentPane);
@@ -53,52 +53,52 @@ public class VentanaRegistro extends JFrame {
 
 		JLabel lblNombre = new JLabel("Nombre: ");
 		lblNombre.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblNombre.setBounds(66, 120, 183, 23);
+		lblNombre.setBounds(21, 120, 183, 23);
 		contentPane.add(lblNombre);
 
 		txtNombre = new JTextField();
 		txtNombre.setColumns(10);
-		txtNombre.setBounds(259, 120, 201, 23);
+		txtNombre.setBounds(214, 120, 201, 23);
 		contentPane.add(txtNombre);
 
 		JLabel lblApellido = new JLabel("Apellido: ");
 		lblApellido.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblApellido.setBounds(66, 154, 183, 23);
+		lblApellido.setBounds(21, 154, 183, 23);
 		contentPane.add(lblApellido);
 
 		txtApellido = new JTextField();
 		txtApellido.setColumns(10);
-		txtApellido.setBounds(259, 154, 201, 23);
+		txtApellido.setBounds(214, 154, 201, 23);
 		contentPane.add(txtApellido);
 
 		JLabel lblEmail = new JLabel("Email: ");
 		lblEmail.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblEmail.setBounds(66, 222, 183, 23);
+		lblEmail.setBounds(21, 222, 183, 23);
 		contentPane.add(lblEmail);
 
 		txtEmail = new JTextField();
 		txtEmail.setColumns(10);
-		txtEmail.setBounds(259, 222, 201, 23);
+		txtEmail.setBounds(214, 222, 201, 23);
 		contentPane.add(txtEmail);
 
 		JLabel lblContrasena = new JLabel("Contraseña: ");
 		lblContrasena.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblContrasena.setBounds(66, 256, 183, 23);
+		lblContrasena.setBounds(21, 256, 183, 23);
 		contentPane.add(lblContrasena);
 
 		txtUsuario = new JTextField();
 		txtUsuario.setColumns(10);
-		txtUsuario.setBounds(259, 188, 201, 23);
+		txtUsuario.setBounds(214, 188, 201, 23);
 		contentPane.add(txtUsuario);
 
 		lblUsuario = new JLabel("Nombre de usuario: ");
 		lblUsuario.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblUsuario.setBounds(66, 188, 183, 23);
+		lblUsuario.setBounds(21, 188, 183, 23);
 		contentPane.add(lblUsuario);
 
 		lblRegistro = new JLabel("REGISTRO");
 		lblRegistro.setFont(new Font("Tahoma", Font.PLAIN, 24));
-		lblRegistro.setBounds(222, 62, 112, 23);
+		lblRegistro.setBounds(160, 61, 112, 23);
 		contentPane.add(lblRegistro);
 
 		btnRegistro = new JButton("Registrarse");
@@ -109,7 +109,7 @@ public class VentanaRegistro extends JFrame {
 			}
 		});
 		btnRegistro.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		btnRegistro.setBounds(222, 340, 146, 40);
+		btnRegistro.setBounds(155, 349, 140, 40);
 		contentPane.add(btnRegistro);
 
 		btnVolver = new JButton("Volver");
@@ -119,21 +119,21 @@ public class VentanaRegistro extends JFrame {
 			}
 		});
 		btnVolver.setFont(new Font("Tahoma", Font.PLAIN, 20));
-		btnVolver.setBounds(428, 11, 146, 40);
+		btnVolver.setBounds(321, 11, 112, 40);
 		contentPane.add(btnVolver);
 
 		JLabel lblFechaDeNacimiento = new JLabel("Fecha de Nacimiento: ");
 		lblFechaDeNacimiento.setFont(new Font("Tahoma", Font.PLAIN, 16));
-		lblFechaDeNacimiento.setBounds(66, 290, 183, 23);
+		lblFechaDeNacimiento.setBounds(21, 290, 183, 23);
 		contentPane.add(lblFechaDeNacimiento);
 
 		dcFechaNacimiento = new JDateChooser();
 		dcFechaNacimiento.setDateFormatString("yyyy-MM-dd");
-		dcFechaNacimiento.setBounds(259, 290, 201, 23);
+		dcFechaNacimiento.setBounds(214, 290, 201, 23);
 		contentPane.add(dcFechaNacimiento);
 
 		txtContrasena = new JPasswordField();
-		txtContrasena.setBounds(259, 256, 201, 23);
+		txtContrasena.setBounds(214, 256, 201, 23);
 		contentPane.add(txtContrasena);
 
 	}

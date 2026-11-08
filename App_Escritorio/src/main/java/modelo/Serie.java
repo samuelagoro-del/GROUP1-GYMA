@@ -56,5 +56,13 @@ public class Serie {
 				+ duracion + "]";
 	}
 	
+	public String getDuracionFormateada() {
+
+	    int minutos = duracion / 60;
+	    int segundos = duracion % 60;
+
+	    return String.format("%02d:%02d", minutos, segundos);
+	}
+	
 	
 }
